@@ -1,3 +1,10 @@
+## Reproduction steps
+1. `next dev` or `next start` with `-H 127.0.0.1`
+2. enter `/handler`, then redirected to `127.0.0.1:3000`
+3. enter `/middleware`, then redirected to `localhost:3000`
+
+---
+
 This is a [Next.js](https://nextjs.org/) template to use when reporting a [bug in the Next.js repository](https://github.com/vercel/next.js/issues) with the `app/` directory.
 
 ## Getting Started
